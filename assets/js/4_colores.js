@@ -25,11 +25,10 @@ amarillo.addEventListener("click", function() {
 document.addEventListener('keydown', function (event) {
     if (event.key === 'a' || event.key === "A"){
         key.style.backgroundColor = "pink"
-        
     } else if (event.key === 's'|| event.key === "S") {
-        key.style.backgroundColor = "cyan"
-    } else if (event.key === 'd'|| event.key === "D") {
         key.style.backgroundColor = "orange"
+    } else if (event.key === 'd'|| event.key === "D") {
+        key.style.backgroundColor = "cyan"
     } else if (event.key === "q" || event.key === "Q") {
         key.innerHTML.style.backgroundColor = "purple"
     }
